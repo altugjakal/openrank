@@ -1,6 +1,16 @@
 # openrank
 A prestige-agnostic ranking algorithm for educational institutions
 
+## Contributing
+
+Contributions are welcome for adding universities, updating data, or refining the scoring model.
+
+* **Data rules:** Cite official public registries (IPEDS, HESA, UKÄ, YÖK Atlas, OpenAlex). Keep salaries in **local currency**, net tuition in **USD** (`0` if tuition-free), and count **affiliate-invented** patents/papers regardless of legal title.
+* **Algorithm rules:** No reputation surveys or endowment metrics. Keep all scores normalized (`0.0–1.0`) by student or faculty size, and include before/after leaderboard output in PRs that change formulas.
+* **Pull requests:** Fork the repo, update `data/universities.csv` or `university.py`, run `python main.py` to verify, and open a PR with your sources.
+
+  We are currently in the process of improving the optimal acceptance rate scoring section, any contributing regarding that will be prioritized.
+
 ## Purpose
 Most mainstream educational ranking websites weight prestige and brand awareness higher than most other metrics that matter for first year students. Prestige is usually determined through surveys, acceptance rates and number of publications. Our algorithm determines prestige through awareness-agnostic factors.
 
