@@ -1,4 +1,11 @@
-# openrank
+
+```                                       ▄▄     
+▄███▄ ████▄ ▄█▀█▄ ████▄ ████▄  ▀▀█▄ ████▄ ██ ▄█▀ 
+██ ██ ██ ██ ██▄█▀ ██ ██ ██ ▀▀ ▄█▀██ ██ ██ ████   
+▀███▀ ████▀ ▀█▄▄▄ ██ ██ ██    ▀█▄██ ██ ██ ██ ▀█▄  altugnet.org
+      ██                                                                                
+```
+
 A prestige-agnostic ranking algorithm for educational institutions
 
 ## Contributing
